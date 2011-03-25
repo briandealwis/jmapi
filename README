@@ -1,0 +1,20 @@
+JMAPI 1.0.0
+
+JMAPI is a simple Java library for opening mail messages using MAPI
+(which should use the user's preferred mailer). 
+
+The project was carved from the ashes of the JDesktop Integration
+Components project (JDIC) (http://java.net/projects/jdic/) as JDIC
+cannot be easily used within an OSGi bundle.  Much of the remaining
+functionality within JDIC has been absorbed into Java6 through
+java.awt.Desktop.
+
+JMAPI can likely still be be used from plain Java jars, but your
+code will require loading the accompanying DLL; you might prefer
+to use JDIC directly.
+
+Currently only Windows 32-bit platforms are supported. 
+
+As with JDIC, JMAPI is licensed under the LGPL.
+
+Please report bugs or issues to Brian de Alwis <bsd@mt.ca>.

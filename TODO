@@ -1,0 +1,2 @@
+Rebuild the DLLs to strip the crufty bits from JDIC and
+change references to org.jdesktop.
